@@ -1,4 +1,6 @@
 //WAP to find the distance between two point using 4 functions.
+#include<stdio.h>
+#include<math.h>
 float input()
 {
     float a; 
