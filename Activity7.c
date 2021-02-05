@@ -36,3 +36,4 @@ int main(void)
     output(dist);
     return 0;
 }
+//Assume that it is only for two coordinates
