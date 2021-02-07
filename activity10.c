@@ -50,4 +50,4 @@ c=sum(c,a[i]);
 printf("The final sum is %d/%d which is %.2f %",c.num,c.deno,(c.num/(1.0*c.deno))*100);
 return 0;
 }
-
+//No errors
