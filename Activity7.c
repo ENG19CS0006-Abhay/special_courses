@@ -6,12 +6,13 @@ struct point
 {
     float x;
     float y;
-}Point1;
+};
+typedef struct point Point1;
 Point1 input()
 {
     Point1 p;
     printf("Enter abcissa ");
-    scanf("%f",&p.x);
+    scanf("%f",&(p.x));
     printf("Enter ordinate ");
     scanf("%f",&p.y);
     return p;
@@ -26,14 +27,16 @@ void output(Point1 p1, Point1 p2, float dist)
 {
     printf("The distance between %f,%f and %f,%f is %f",p1.x,p1,y,p2.x,p2,y,dist);
 }
-int main(void)
+int main()
 {
     float dist;
     Point1 p1,p2;
     p1=input();
     p2=input();
     dist=compute(p1,p2);
-    output(dist);
+    output(p1,p2,dist);
     return 0;
 }
+
+
 //Assume that it is only for two coordinates
