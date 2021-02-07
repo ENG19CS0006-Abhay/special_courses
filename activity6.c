@@ -28,7 +28,7 @@ int main()
     y=input();
     x1=input();
     y1=input();
-    z=find_distance(x,x1,y,y1);
+    float z=find_distance(x,x1,y,y1);
     output(z);
     return 0;
 }
